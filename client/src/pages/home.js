@@ -46,6 +46,7 @@ export const Home = () => {
   };
 
   const isRecipeSaved = (id) => savedRecipes.includes(id);
+
   return (
     <div>
       <h1>Recipes</h1>
@@ -64,7 +65,7 @@ export const Home = () => {
             <div className="instructions">
               <p>{recipe.instructions}</p>
             </div>
-            <img src={recipe.imageUrl} alt={recipe.name} />
+            <img src={recipe.imageUrl} alt={recipe.name}/>
             <p>Cooking Time: {recipe.cookingTime} minutes</p>
           </li>
         ))}
