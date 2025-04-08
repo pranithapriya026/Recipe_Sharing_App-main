@@ -54,7 +54,7 @@ input {
 .navbar {
   margin: 2px;
   width: 100%;
-  height: 60px;
+  height: 50px;
   background-color: rgb(68, 182, 205);
   display: flex;
   justify-content: left;
